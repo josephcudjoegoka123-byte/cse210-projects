@@ -10,11 +10,11 @@ public class BreathingActivity : Activity
         {
             Console.Write("Breathe in ...");
             ShowCountDown(4);
-            Console.WriteLine();
 
-            Console.Write("Breathe out...");
+            Console.Write("Now Breathe out...");
             ShowCountDown(6);
             Console.WriteLine();
+            
         }
         DisplayEndingMessage();
     }
